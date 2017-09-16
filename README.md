@@ -43,7 +43,7 @@ Download the pi3's pure armv8 rootfs. It will be downloaded to your current dire
 
 Unpack the rootfs into the sdcard
 
-`bsdtar -xpf ArchLinuxARM-rpi-2-latest.tar.gz -C /mnt`
+`bsdtar -xpf ArchLinuxARM-rpi-3-latest.tar.gz -C /mnt`
 
 Actually write to disks. This will lock up the terminal until finished.
 
