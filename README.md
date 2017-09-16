@@ -42,12 +42,15 @@ Download the pi3's pure armv8 rootfs. It will be downloaded to your current dire
 `wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-3-latest.tar.gz`
 
 Unpack the rootfs into the sdcard
+
 `bsdtar -xpf ArchLinuxARM-rpi-2-latest.tar.gz -C /mnt`
 
 Actually write to disks. This will lock up the terminal until finished.
+
 `sync`
 
 Unmount the partitions and put the sd card in the Pi. You are ready to go.
+
 `umount -R /mnt`
 
 
