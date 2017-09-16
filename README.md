@@ -25,6 +25,11 @@ At the fdisk prompt, use the following commands to setup the partitions.
 
 Once it is done, `lsblk` should show two partitions inside your sdcard.
 
+Format them:
+
+`mkfs.vfat /dev/mmcblk0p1`
+`mkfs.ext4 /dev/mmcblk0p2`
+
 Mount the soon-to-be root partition at /mnt or a destination of your choice
 
 `mount /dev/mmcblk0p2 /mnt`
