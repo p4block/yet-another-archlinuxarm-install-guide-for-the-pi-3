@@ -38,6 +38,7 @@ Mount the first partition into it
 `mount /dev/mmcblk0p1 /mnt/boot`
 
 Download the pi3's pure armv8 rootfs. It will be downloaded to your current directory.
+
 `wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-3-latest.tar.gz`
 
 Unpack the rootfs into the sdcard
